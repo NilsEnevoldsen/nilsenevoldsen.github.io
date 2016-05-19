@@ -165,6 +165,18 @@ a:link::selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #
 a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
                          background: #b4d5fe; }
 
+/* Dates */
+.date { left: -10%;
+        width: 8%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 90%;
+        line-height: 1.8;
+        vertical-align: baseline;
+        text-align: right;
+        color: #999;
+        position: absolute; }
+
 /* Sidenotes, margin notes, figures, captions */
 img { max-width: 100%; }
 
